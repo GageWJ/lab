@@ -5,7 +5,7 @@ class Account:
 
     def deposit(self, amount):
         if amount > 0:
-            self.__acount_balance += amount
+            self.__account_balance += amount
             return True
         else:
             return False
