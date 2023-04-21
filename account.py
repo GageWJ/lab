@@ -1,5 +1,5 @@
 class Account:
-    def __init_(self, name):
+    def __init__(self, name):
         self.__account_name = name
         self.__account_balance = 0
 
@@ -11,7 +11,7 @@ class Account:
             return False
 
     def withdraw(self, amount):
-        if amount > 0 and amount <= self.account_balance:
+        if amount > 0 and amount <= self.__account_balance:
             self.__account_balance -= amount
             return True
         else:
